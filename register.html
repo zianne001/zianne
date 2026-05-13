@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Register - Weasley Store</title>
+
+
+    <link rel="stylesheet" href="style.css.css">
+
+</head>
+
+<body class="register-page">
+
+    <div class="register-container">
+
+        <h2>Create Account</h2>
+
+        <form onsubmit="registerUser(event)">
+
+            <label>Full Name</label>
+            <input type="text" id="name" required>
+
+            <label>Email</label>
+            <input type="email" id="email" required>
+
+            <label>Password</label>
+            <input type="password" id="password" required>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
